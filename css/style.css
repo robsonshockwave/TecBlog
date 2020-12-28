@@ -11,7 +11,7 @@ body {
 }
 
 /*
-### Layout ###
+### Layout (id) ###
 */
 #area-cabecalho {
     background-color: #f7b600;
@@ -26,10 +26,7 @@ body {
 #area-principal {
     width: 920px;
     margin: 0px auto;
-}
-
-#area-postagens, #area-lateral {
-    background-color: orange;
+    padding: 15px;
 }
 
 #area-postagens {
@@ -48,6 +45,18 @@ body {
     background: white;
 }
 
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
 #rodape {
     clear: both;
     text-align: center;
@@ -56,30 +65,58 @@ body {
 }
 
 /*
-### Formatação do menu ###
+### Formatação do menu (link) ###
 */
 a {
     text-decoration: none;
 }
 
 a:link, a:visited {
+    color: #f7b600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
 }
 
-a:hover {
+#area-cabecalho a:hover {
     color: #f7b600;
     background: #fff;
+    text-decoration: none;
 }
 
 /*
-### Formatações em geral ###
+### Formatações em geral (class) ###
 */
 h1 {
     color: #4e4e4e;
     font-size: 2.5em;
 }
 
+h2 {
+    color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+
 .branco {
     color: white;
 }
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
