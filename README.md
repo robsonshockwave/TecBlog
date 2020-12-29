@@ -1,4 +1,5 @@
 # TecBlog
+Um site simples para conteúdos relacionados a tecnologia.
 Projeto do curso do Jamilton Damasceno feito pra colocar o CSS em dia. 
 
 <h5>Feito com apenas recursos intermediários de CSS.</h5>
